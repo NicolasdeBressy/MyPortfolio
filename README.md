@@ -1,6 +1,6 @@
-# MonPortfolio
+# Portfolio
 
-MonPortfolio est un site web personnel conçu pour présenter mes projets, compétences, et expériences professionnelles. Ce projet met en avant une interface utilisateur propre et moderne, avec des animations fluides et une navigation intuitive.
+Ce portfolio est conçu pour présenter mes projets, compétences, et expériences professionnelles. Ce projet met en avant une interface utilisateur propre et moderne, avec des animations fluides et une navigation intuitive.
 
 ## Fonctionnalités
 
