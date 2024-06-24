@@ -4,84 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nicolas de Bressy</title>
-
     <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      rel="icon"
+      href="./assets/img/letter-n_15090711.png"
+      type="image/png"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme/min.css"
-    />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
   </head>
   <body>
-    <div class="transparency-element">
-      <div class="second-block">
-        <nav class="navbar">
-          <ul class="left">
-            <li>Contact</li>
-            <li>À propos de moi</li>
-          </ul>
-        </nav>
-        <h1>Nicolas de Bressy</h1>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-left">
+          <li class="logo">
+            <a href="#">
+              <img src="./assets/img/letter-n_15090711.png" alt="logo" />
+            </a>
+          </li>
+          <li>Mon CV</li>
+          <li>Me contacter</li>
+          <li>À propos de moi</li>
+          <li class="donation-link">Dons<i class="fab fa-bitcoin"></i></li>
+        </ul>
+        <ul class="nav-right">
+          <li>
+            <a
+              href="https://github.com/NicolasdeBressy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nicolas-de-bressy-181849303/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <div class="picture-projects">
-          <div class="contenaire">
-            <div class="picture">
-              <img
-                src="/img/447836522_1568522123695521_2289226378660617051_n.jpg"
-                alt="profil-picture"
-              />
-            </div>
-          </div>
-          <div class="contenaire2">
-            <div id="carrousel">
-              <article>
-                <img src="/img/flag.jpg" alt="photo" />
-              </article>
-              <article>
-                <img src="" alt="photo" />
-              </article>
-              <article>
-                <img src="" alt="photo" />
-              </article>
-              <article>
-                <img src="" alt="photo" />
-              </article>
-              <article>
-                <img src="" alt="photo" />
-              </article>
-              <article>
-                <img src="" alt="photo" />
-              </article>
-              <article>
-                <img src="" alt="photo" />
-              </article>
-            </div>
-          </div>
-        </div>
+    <section id="description">
+      <h1>
+        <span class="word">Développeur</span>
+        <span>front-end,</span>
+        <br />
+        <span class="word">Javascript/React.</span>
+        <br />
+        <span class="word">Je</span>
+        <span class="word">donne</span>
+        <span class="word">vie</span>
+        <br />
+        <span class="word">à</span>
+        <span class="word">vos</span>
+        <span class="word">projets !</span>
+      </h1>
+    </section>
+    <section id="background"></section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Nicolas de Bressy. Tous droits réservés.</p>
+        <ul class="socials">
+          <li>
+            <a
+              href="https://github.com/NicolasdeBressy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nicolas-de-bressy-181849303/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-
-    <script src="/script.js"></script>
+    <script src="./assets/script/main.js"></script>
+    <!-- <script src="./assets/script/select-elements.js"></script> -->
+    <script src="./assets/script/reveal-words.js"></script>
+    <script src="./assets/script/hover-bitcoin.js"></script>
+    <script src="./assets/script/parallax-scroll.js"></script>
   </body>
 </html>
