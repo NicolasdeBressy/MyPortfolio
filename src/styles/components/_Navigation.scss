@@ -1,0 +1,83 @@
+.navbar {
+  width: 98%;
+  background-color: white;
+  z-index: 1000;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+
+  &.scrolled {
+    border-bottom: 2px solid #e5e5e5;
+  }
+
+  .nav-left,
+  .nav-right {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    .logo {
+      margin-right: 10px;
+
+      img {
+        width: 24px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    li {
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        background-color: #e5e5e567;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      &.donation-link {
+        display: flex;
+        align-items: center;
+
+        .fa-bitcoin {
+          margin: 0 5px;
+          vertical-align: middle;
+          font-size: 1.5rem;
+          color: rgb(247, 147, 26);
+        }
+      }
+    }
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+
+    .fa-linkedin:hover {
+      color: rgb(10, 102, 194);
+      transition: ease-in;
+    }
+
+    li {
+      padding: 0 10px;
+
+      a {
+        font-size: 1.9rem;
+      }
+    }
+  }
+}
