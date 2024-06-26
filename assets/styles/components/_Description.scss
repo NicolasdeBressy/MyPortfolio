@@ -1,0 +1,14 @@
+#description {
+  h1 {
+    padding-top: 200px;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    line-height: 1.4;
+  }
+
+  .word {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+  }
+}
