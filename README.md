@@ -1,18 +1,56 @@
-# Portfolio
+# My Portfolio
 
-Mon Portfolio est conçu pour présenter mes projets, compétences, et expériences professionnelles. Ce projet met en avant une interface utilisateur propre et moderne, avec des animations fluides et une navigation intuitive.
+Ce projet est mon portfolio personnel créé avec React. Il présente mes compétences, expériences et projets.
 
 ## Fonctionnalités
 
-- **Page d'accueil** : Introduction et présentation personnelle.
-- **Projets** : Section dédiée à la présentation de mes projets avec des descriptions détaillées et des images.
-- **Compétences** : Affichage de mes compétences techniques sous forme de graphiques et listes.
-- **Expériences** : Chronologie interactive de mes expériences professionnelles et académiques.
-- **Contact** : Formulaire de contact pour permettre aux visiteurs de m'envoyer des messages.
+- **Navigation**
+
+  - Navbar fixée avec effet de parallaxe au défilement.
+  - Liens vers les sections : CV, Me contacter, À propos de moi.
+  - Liens sociaux vers GitHub et LinkedIn.
+
+- **Section Accueil**
+
+  - Effet de révélation de titre au chargement.
+
+- **Section Background**
+
+  - Arrière-plan personnalisé avec style.
+
+- **Section À propos de moi**
+
+  - Informations sur moi-même et mon parcours.
+
+- **Section Me contacter**
+
+  - Formulaire de contact avec champs pour nom, email et message.
+  - Validation des champs et envoi des données.
+
+- **Footer**
+
+  - Droits d'auteur et liens sociaux (GitHub, LinkedIn).
+
+- **Composants**
+  - HoverBitcoin : Tooltip avec adresse Bitcoin lors du survol.
+  - ParallaxScroll : Effet de parallaxe sur certains éléments.
 
 ## Technologies utilisées
 
-- HTML5
-- CSS3
-- JavaScript
-- Google Fonts
+- React
+- CSS (SCSS)
+- Font Awesome
+
+## Comment exécuter localement
+
+1. Clonez ce dépôt : `git clone https://github.com/votre-utilisateur/MyPortfolio.git`
+2. Installez les dépendances : `npm install`
+3. Démarrez l'application : `npm start`
+
+## Auteur
+
+Nicolas de Bressy - [GitHub](https://github.com/NicolasdeBressy) - [LinkedIn](https://www.linkedin.com/in/nicolas-de-bressy-181849303/)
+
+---
+
+© 2024 Nicolas de Bressy. Tous droits réservés.
