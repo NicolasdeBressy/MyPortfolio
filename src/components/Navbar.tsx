@@ -18,7 +18,13 @@ const Navbar: React.FC = () => {
           </Link>
         </li>
         <li>
-          <Link to="/cv">Mon CV</Link>
+          <a
+            href="/documents/CV Nicolas de Bressy.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mon CV
+          </a>
         </li>
         <li>
           <Link to="/contact">Me contacter</Link>
