@@ -1,3 +1,5 @@
+@import "/src/styles/settings";
+
 .navbar {
   width: 98%;
   background-color: white;
@@ -13,7 +15,7 @@
   border-radius: 10px;
 
   &.scrolled {
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 2px solid $color1;
   }
 
   .nav-left,
@@ -39,13 +41,13 @@
       align-items: center;
 
       &:hover {
-        background-color: #e5e5e567;
+        background-color: $color4;
         border-radius: 5px;
         cursor: pointer;
       }
 
       a {
-        color: #000;
+        color: $color2;
         text-decoration: none;
       }
 
@@ -68,7 +70,7 @@
     align-items: center;
 
     .fa-linkedin:hover {
-      color: rgb(10, 102, 194);
+      color: $color;
       transition: ease-in;
     }
 

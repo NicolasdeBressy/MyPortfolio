@@ -38,10 +38,10 @@ const TitleReveal: React.FC = () => {
 
   return (
     <h1 id="TitleReveal">
-      <span className="word">Développeur</span>
-      <span> front-end,</span>
+      <span className="word">Nicolas de Bressy</span>
       <br />
-      <span className="word">Javascript/React.</span>
+      <span className="word">Développeur</span>
+      <span> full-stack</span>
       <br />
       <span className="word">Je</span>
       <span className="word"> donne</span>

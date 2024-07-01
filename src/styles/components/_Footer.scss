@@ -1,8 +1,10 @@
+@import "/src/styles/settings";
+
 footer {
-  background-color: #ffffff;
+  background-color: $color3;
   padding: 20px 0;
   text-align: center;
-  border-top: 2px solid #e5e5e5;
+  border-top: 2px solid $color1;
 
   .footer-content {
     width: 100%;
@@ -13,7 +15,7 @@ footer {
 
     p {
       margin: 10px 0;
-      color: #333;
+      color: $color2;
     }
 
     .socials {
@@ -23,7 +25,7 @@ footer {
       margin: 10px 0 0 0;
 
       .fa-linkedin:hover {
-        color: rgb(10, 102, 194);
+        color: $color5;
         transition: ease-in;
       }
 
@@ -31,13 +33,13 @@ footer {
         padding: 5px 10px;
 
         &:hover {
-          background-color: #e5e5e567;
+          background-color: $color4;
           border-radius: 5px;
           cursor: pointer;
         }
         a {
           font-size: 1.5rem;
-          color: #333;
+          color: $color2;
           text-decoration: none;
           transition: color 0.3s ease;
         }

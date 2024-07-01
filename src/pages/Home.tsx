@@ -18,36 +18,44 @@ const Home: React.FC = () => {
         </section>
 
         <section id="about" className="about-section">
-          <h2>À propos de moi</h2>
           <p>
-            Passionné de développement web, je crée des expériences numériques
-            innovantes. Avec une solide expérience en React et TypeScript, je
-            suis constamment à la recherche de nouveaux défis.
+            Développeur web passionné, je crée des expériences numériques
+            innovantes.
           </p>
         </section>
 
         <section id="skills" className="skills-section">
           <h2>Mes compétences</h2>
           <ul>
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>SCSS</li>
-            <li>Node.js</li>
-            <li>Git</li>
+            <li>
+              <i className="fab fa-react"></i>
+            </li>
+            <li>
+              <i className="fab fa-js"></i>
+            </li>
+            <li>
+              <i className="fab fa-sass"></i>
+            </li>
+            <li>
+              <i className="fab fa-node-js"></i>
+            </li>
+            <li>
+              <i className="fab fa-git-alt"></i>
+            </li>
           </ul>
         </section>
 
         <section id="projects" className="projects-section">
-          <h2>Projets récents</h2>
+          <h2>Mes projets</h2>
           <div className="project-grid">
             <div className="project-card">
-              <h3>nom du projet</h3>
-              <p>description du projet</p>
+              <h3>En construction</h3>
+              <p>déso ça arrive bientot</p>
               <a href="#">Voir le projet</a>
             </div>
             <div className="project-card">
-              <h3>nom du projet</h3>
-              <p>description du projet</p>
+              <h3>Celui-ci aussi en construction</h3>
+              <p>j'ai quelques idées</p>
               <a href="#">Voir le projet</a>
             </div>
           </div>

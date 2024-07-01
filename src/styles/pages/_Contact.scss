@@ -1,3 +1,5 @@
+@import "/src/styles/settings";
+
 .contact-page {
   max-width: 600px;
   margin: 0 auto;
@@ -24,27 +26,35 @@
       textarea {
         width: 100%;
         padding: 0.5rem;
-        border: 1px solid #ccc;
-        border-radius: 4px;
+        border: 3px solid $color1;
+        border-radius: 25px;
+        resize: none;
+        outline: none;
+
+        &:hover,
+        &:focus {
+          border: 3px dashed $color;
+        }
       }
 
       textarea {
         height: 150px;
+        border-radius: 15px;
       }
     }
 
     button {
       align-self: flex-start;
       padding: 0.5rem 1rem;
-      background-color: #007bff;
-      color: white;
+      background-color: $color;
+      color: $color3;
       border: none;
       border-radius: 4px;
       cursor: pointer;
       transition: background-color 0.3s ease;
 
       &:hover {
-        background-color: #0056b3;
+        background-color: $color5;
       }
     }
   }

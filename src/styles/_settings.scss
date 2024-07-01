@@ -1,3 +1,10 @@
+$color: #007bff;
+$color1: #bd9aff;
+$color2: #000000;
+$color3: #ffffff;
+$color4: #e5e5e567;
+$color5: #0056b3;
+
 @font-face {
   font-family: "Inter";
   src: url("/assets/fonts/Inter/static/Inter-Medium.ttf");
@@ -12,7 +19,13 @@
 
 body {
   min-height: 100vh;
-  background-size: cover;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-image: url(/assets/img/background1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

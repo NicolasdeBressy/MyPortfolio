@@ -40,8 +40,8 @@ const About: React.FC = () => {
           <p>
             En 2022, j'ai décidé de plonger dans le monde du développement. Ce
             qui a commencé comme une simple exploration s'est rapidement
-            transformé en une véritable passion. Chaque ligne de code écrite,
-            chaque problème résolu, a renforcé mon enthousiasme pour ce domaine.
+            transformé en une véritable passion. Ma spécialisation se tourne
+            particulièrement vers Javascript/React.
           </p>
         </section>
 
